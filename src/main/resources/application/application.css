@@ -1,0 +1,18 @@
+.root {
+    -fx-background-color: lightblue;
+}
+
+.button {
+    -fx-background-color: #d93636;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 15 30;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, #777777, 6, 0, 0, 4);
+}
+
+.button:pressed {
+    -fx-background-color: #a82020;
+    -fx-translate-y: 3;
+    -fx-effect: dropshadow(gaussian, #777777, 2, 0, 0, 1);
+}
